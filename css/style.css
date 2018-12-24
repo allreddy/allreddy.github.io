@@ -1,26 +1,49 @@
 body {
     margin: 60px auto;
-    width: 70%;
+    width: 60%;
 }
 
 h1 {
     font-size: 3em;
+}
+
+h1, h2 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
+
 p {
     font-size: 1.5em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     line-height: 1.4em;
     color: #333;
 }
+
+.timeline {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
 }
 
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+
+footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 20px;
     list-style: none;
     font-weight: bold;
 }
@@ -37,4 +60,3 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
