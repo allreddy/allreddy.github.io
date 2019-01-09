@@ -1,6 +1,10 @@
+.wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
+
 body {
-    margin: 60px auto;
-    width: 60%;
+    margin: 60px 60px;
 }
 
 h1 {
